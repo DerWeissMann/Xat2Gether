@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationEvents.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ApplicationEvents.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\ApplicationEvents.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ApplicationEvents.vb",
+              "RelativeToolTip": "Xat2getherLTS\\ApplicationEvents.vb",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T07:14:55.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
