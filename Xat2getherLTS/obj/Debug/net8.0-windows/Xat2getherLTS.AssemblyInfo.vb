@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Xat2getherLTS"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+983cbbff075ad082e5c8b9f825d508d7cefa44e3"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Xat2getherLTS"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Xat2getherLTS"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

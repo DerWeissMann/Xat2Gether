@@ -1,6 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 
-Public Class CrearGrupoForm
+Public Class CrearChat
     Private idCreador As Integer
 
     Public Sub New(creadorId As Integer)
@@ -8,7 +8,7 @@ Public Class CrearGrupoForm
         idCreador = creadorId
     End Sub
 
-    Private Sub CrearGrupoForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub CrearChatLoad(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim cmd As New MySqlCommand("SELECT id, nombre FROM usuarios WHERE id <> @yo", conexion)
         cmd.Parameters.AddWithValue("@yo", idCreador)
         Dim reader = cmd.ExecuteReader()
@@ -21,7 +21,7 @@ Public Class CrearGrupoForm
         reader.Close()
     End Sub
 
-    Private Sub btnCrearGrupo_Click(sender As Object, e As EventArgs) Handles btnCrearGrupo.Click
+    Private Sub btnCrearChat_Click(sender As Object, e As EventArgs) Handles btnCrearChat.Click
         Dim nombreGrupo = txtNombreGrupo.Text.Trim()
         If nombreGrupo = "" Or chkUsuarios.CheckedItems.Count = 0 Then
             MessageBox.Show("Introduce un nombre y selecciona al menos un usuario.")

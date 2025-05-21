@@ -1,4 +1,1 @@
-servidor=26.135.212.191
-usuario=chat
-contrasena=chat1234
-baseDeDatos=chatapp
+ZfdTsfpN8vGGVBALEsrooXmlYCxf52Ro9zUmMKUiPC7/JwD6rN3vHJyV1/EY1xjmNePCV6hasJBDg62BcMuL3+/JkGIXJvIVEfIKO2b2L2i1FWiyPWbJcpWNIDh+cldZ

@@ -66,6 +66,7 @@ Partial Class LoginForm
         txtContrasena.ForeColor = Color.Black
         txtContrasena.Location = New Point(137, 240)
         txtContrasena.Name = "txtContrasena"
+        txtContrasena.PasswordChar = "@"c
         txtContrasena.Size = New Size(439, 23)
         txtContrasena.TabIndex = 4
         ' 

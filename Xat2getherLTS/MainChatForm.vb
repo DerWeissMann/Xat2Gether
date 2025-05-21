@@ -1,5 +1,6 @@
 Imports MySql.Data.MySqlClient
 Imports System.IO
+Imports System.Security.Cryptography
 Imports System.Text
 
 Public Class MainChatForm
@@ -16,30 +17,39 @@ Public Class MainChatForm
             End
         End If
 
-        Dim servidor As String = ""
-        Dim usuario As String = ""
-        Dim contrasena As String = ""
-        Dim baseDeDatos As String = ""
+        Try
+            Dim contenidoCifrado = File.ReadAllText(ruta)
+            Dim datosPlano = ConexionBD.DesencriptarAES(Convert.FromBase64String(contenidoCifrado))
 
-        For Each linea In File.ReadAllLines(ruta)
-            If linea.StartsWith("servidor=") Then
-                servidor = linea.Replace("servidor=", "").Trim()
-            ElseIf linea.StartsWith("usuario=") Then
-                usuario = linea.Replace("usuario=", "").Trim()
-            ElseIf linea.StartsWith("contrasena=") Then
-                contrasena = linea.Replace("contrasena=", "").Trim()
-            ElseIf linea.StartsWith("baseDeDatos=") Then
-                baseDeDatos = linea.Replace("baseDeDatos=", "").Trim()
+            Dim servidor As String = ""
+            Dim usuario As String = ""
+            Dim contrasena As String = ""
+            Dim baseDeDatos As String = ""
+
+            For Each linea In datosPlano.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries)
+                If linea.StartsWith("servidor=") Then
+                    servidor = linea.Replace("servidor=", "").Trim()
+                ElseIf linea.StartsWith("usuario=") Then
+                    usuario = linea.Replace("usuario=", "").Trim()
+                ElseIf linea.StartsWith("contrasena=") Then
+                    contrasena = linea.Replace("contrasena=", "").Trim()
+                ElseIf linea.StartsWith("basededatos=") Then
+                    baseDeDatos = linea.Replace("basededatos=", "").Trim()
+                End If
+            Next
+
+            If servidor = "" OrElse usuario = "" OrElse contrasena = "" OrElse baseDeDatos = "" Then
+                MessageBox.Show("El archivo config.txt está incompleto o mal formado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                End
             End If
-        Next
 
-        If servidor = "" OrElse usuario = "" OrElse contrasena = "" OrElse baseDeDatos = "" Then
-            MessageBox.Show("El archivo config.txt está incompleto o mal formado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Return $"Server={servidor};Database={baseDeDatos};Uid={usuario};Pwd={contrasena};SslMode=none;"
+        Catch ex As Exception
+            MessageBox.Show("Error al leer o desencriptar el archivo config.txt: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End
-        End If
-
-        Return $"Server={servidor};Database={baseDeDatos};Uid={usuario};Pwd={contrasena};SslMode=none;"
+        End Try
     End Function
+
 
     Private Function ObtenerColorUsuario(id As Integer) As String
         If colorUsuarioCache.ContainsKey(id) Then
@@ -83,7 +93,7 @@ Public Class MainChatForm
         If chatActivoId <> 0 Then
             Dim gestionForm As New GestionGrupoForm(chatActivoId)
             gestionForm.ShowDialog()
-            CargarMensajesGrupo(chatActivoId)
+            CargarMensajes(chatActivoId)
         End If
     End Sub
 
@@ -95,7 +105,7 @@ Public Class MainChatForm
 
         Dim resultado = cmd.ExecuteScalar()
         If resultado IsNot DBNull.Value AndAlso Convert.ToDateTime(resultado) > ultimaFechaMensaje Then
-            CargarMensajesGrupo(chatActivoId)
+            CargarMensajes(chatActivoId)
         End If
     End Sub
 
@@ -127,7 +137,7 @@ Public Class MainChatForm
         cmd.ExecuteNonQuery()
 
         txtMensaje.Clear()
-        CargarMensajesGrupo(chatActivoId)
+        CargarMensajes(chatActivoId)
     End Sub
 
     Private Sub lstChats_DrawItem(sender As Object, e As DrawItemEventArgs) Handles lstChats.DrawItem
@@ -185,10 +195,10 @@ Public Class MainChatForm
         chatActivoId = CInt(texto.Split("[id:")(1).Replace("]", ""))
 
         lblChatTitulo.Text = texto.Replace("[id:" & chatActivoId & "]", "").Trim()
-        CargarMensajesGrupo(chatActivoId)
+        CargarMensajes(chatActivoId)
     End Sub
 
-    Private Sub CargarMensajesGrupo(grupoId As Integer)
+    Private Sub CargarMensajes(grupoId As Integer)
         pnlMensajes.Controls.Clear()
 
         Dim clave = CryptoService.GenerarClaveGrupo(grupoId)
@@ -203,10 +213,12 @@ Public Class MainChatForm
             Dim colorHex = ObtenerColorUsuario(emisorId)
 
             Dim panelMsg As New Panel()
+            panelMsg.Tag = reader("id")
             panelMsg.Padding = New Padding(10)
             panelMsg.AutoSize = True
             panelMsg.AutoSizeMode = AutoSizeMode.GrowAndShrink
             panelMsg.Margin = New Padding(5)
+
 
             If mensajeTexto.StartsWith("<img>") AndAlso mensajeTexto.EndsWith("</img>") Then
                 Dim url As String = mensajeTexto.Replace("<img>", "").Replace("</img>", "").Trim()
@@ -234,6 +246,19 @@ Public Class MainChatForm
             End Try
 
             pnlMensajes.Controls.Add(panelMsg)
+            Dim menu As New ContextMenuStrip()
+            Dim asignarItem As New ToolStripMenuItem("Asignar tarea")
+            AddHandler asignarItem.Click, Sub(s, e)
+                                              Dim mensajeId As Integer = CInt(panelMsg.Tag)
+                                              Dim textoOriginal As String = ObtenerTextoMensaje(panelMsg)
+                                              Dim nombreAsignado As String = ObtenerNombreDe(panelMsg)
+
+                                              Dim f As New AsignarTareaForm(chatActivoId, mensajeId, nombreAsignado, textoOriginal, usuarioId)
+                                              f.ShowDialog()
+                                          End Sub
+            menu.Items.Add(asignarItem)
+            panelMsg.ContextMenuStrip = menu
+
         End While
 
         reader.Close()
@@ -249,11 +274,34 @@ Public Class MainChatForm
             pnlMensajes.ScrollControlIntoView(pnlMensajes.Controls(pnlMensajes.Controls.Count - 1))
         End If
     End Sub
+    Private Function ObtenerNombreDe(panelMsg As Panel) As String
+        If panelMsg.Controls.Count = 0 Then Return ""
+        Dim lbl = TryCast(panelMsg.Controls(0), Label)
+        If lbl Is Nothing Then Return ""
+
+        Dim texto = lbl.Text
+        If texto.Contains(":") Then
+            Return texto.Split(":"c)(0).Trim()
+        End If
+        Return nombreUsuario
+    End Function
+
+    Private Function ObtenerTextoMensaje(panelMsg As Panel) As String
+        If panelMsg.Controls.Count = 0 Then Return ""
+        Dim lbl = TryCast(panelMsg.Controls(0), Label)
+        If lbl Is Nothing Then Return ""
+
+        Dim texto = lbl.Text
+        If texto.Contains(":") Then
+            Return texto.Substring(texto.IndexOf(":"c) + 1).Trim()
+        End If
+        Return texto
+    End Function
 
 
     Public Sub RefrescarChatActivo()
         If chatActivoId = 0 Then Exit Sub
-        CargarMensajesGrupo(chatActivoId)
+        CargarMensajes(chatActivoId)
     End Sub
 
     Private Function CambiarTextos(texto As String) As String
@@ -318,13 +366,14 @@ Public Class MainChatForm
     End Sub
 
     Private Sub btnCrearGrupo_Click(sender As Object, e As EventArgs) Handles btnCrearGrupo.Click
-        Dim f As New CrearGrupoForm(usuarioId)
+        Dim f As New CrearChat(usuarioId)
         f.ShowDialog()
         CargarChats()
     End Sub
 
-    Private Sub btnExportar_Click(sender As Object, e As EventArgs) Handles btnExportar.Click
-        FileService.ExportarChat($"grupo_{chatActivoId}.chat", "txt")
+    Private Sub btnTareas_Click(sender As Object, e As EventArgs) Handles btnTareas.Click
+        Dim f As New VerTareasForm(usuarioId)
+        f.ShowDialog()
     End Sub
 
     Private Sub btnConfiguracion_Click(sender As Object, e As EventArgs) Handles btnConfiguracion.Click
@@ -334,12 +383,12 @@ Public Class MainChatForm
     End Sub
     Private Sub ConfigFormClosed(sender As Object, e As FormClosedEventArgs)
         If chatActivoId = 0 Then Exit Sub
-        CargarMensajesGrupo(chatActivoId)
+        CargarMensajes(chatActivoId)
     End Sub
     Public Sub LimpiarCacheColores()
         colorUsuarioCache.Clear()
     End Sub
-    Private Sub btnSuperReaccion_Click(sender As Object, e As EventArgs) Handles btnSuperReaccion.Click
+    Private Sub btnImagen_Click(sender As Object, e As EventArgs) Handles btnImagen.Click
         Dim url As String = InputBox("Introduce la URL de la imagen:", "Insertar Imagen")
 
         If Not String.IsNullOrWhiteSpace(url) AndAlso (url.StartsWith("http://") OrElse url.StartsWith("https://")) Then
@@ -353,7 +402,7 @@ Public Class MainChatForm
             cmd.Parameters.AddWithValue("@mensaje", mensajeEncriptado)
             cmd.ExecuteNonQuery()
 
-            CargarMensajesGrupo(chatActivoId)
+            CargarMensajes(chatActivoId)
         Else
             MessageBox.Show("La URL no es válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End If
@@ -361,8 +410,14 @@ Public Class MainChatForm
 
 
 
-    Private Sub btnNuevoChat_Click(sender As Object, e As EventArgs) Handles btnNuevoChat.Click
-        LoginForm.BorrarSesion()
+    Private Sub btnCerrarSesion_Click(sender As Object, e As EventArgs) Handles btnCerrarSesion.Click
+        BorrarSesion()
         Application.Restart()
+        End
+    End Sub
+
+    Public Sub BorrarSesion()
+        Dim ruta = Path.Combine(Application.StartupPath, "account.txt")
+        If File.Exists(ruta) Then File.Delete(ruta)
     End Sub
 End Class

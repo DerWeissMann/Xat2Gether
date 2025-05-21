@@ -4,42 +4,94 @@
     Private components As System.ComponentModel.IContainer
     Private WithEvents cmbColores As System.Windows.Forms.ComboBox
     Private WithEvents pnlPreview As System.Windows.Forms.Panel
+    Private WithEvents txtNuevoNombre As TextBox
+    Private WithEvents btnGuardarNombre As Button
+    Private WithEvents btnEliminarCuenta As Button
+
 
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.cmbColores = New System.Windows.Forms.ComboBox()
-        Me.pnlPreview = New System.Windows.Forms.Panel()
-        Me.SuspendLayout()
+        cmbColores = New ComboBox()
+        pnlPreview = New Panel()
+        txtNuevoNombre = New TextBox()
+        btnGuardarNombre = New Button()
+        btnEliminarCuenta = New Button()
+        SuspendLayout()
+        ' 
+        ' cmbColores
+        ' 
+        cmbColores.BackColor = Color.FromArgb(CByte(209), CByte(255), CByte(221))
+        cmbColores.DropDownStyle = ComboBoxStyle.DropDownList
+        cmbColores.FlatStyle = FlatStyle.Flat
+        cmbColores.ForeColor = Color.Black
+        cmbColores.FormattingEnabled = True
+        cmbColores.Location = New Point(26, 28)
+        cmbColores.Name = "cmbColores"
+        cmbColores.Size = New Size(176, 23)
+        cmbColores.TabIndex = 0
+        ' 
+        ' pnlPreview
+        ' 
+        pnlPreview.BackColor = Color.FromArgb(CByte(75), CByte(190), CByte(154))
+        pnlPreview.BorderStyle = BorderStyle.FixedSingle
+        pnlPreview.Location = New Point(219, 28)
+        pnlPreview.Name = "pnlPreview"
+        pnlPreview.Size = New Size(53, 23)
+        pnlPreview.TabIndex = 1
+        ' 
+        ' txtNuevoNombre
+        ' 
+        txtNuevoNombre.BackColor = Color.White
+        txtNuevoNombre.ForeColor = Color.Black
+        txtNuevoNombre.Location = New Point(26, 66)
+        txtNuevoNombre.Name = "txtNuevoNombre"
+        txtNuevoNombre.PlaceholderText = "Nuevo nombre"
+        txtNuevoNombre.Size = New Size(176, 23)
+        txtNuevoNombre.TabIndex = 2
+        ' 
+        ' btnGuardarNombre
+        ' 
+        btnGuardarNombre.BackColor = Color.FromArgb(CByte(42), CByte(157), CByte(124))
+        btnGuardarNombre.FlatStyle = FlatStyle.Flat
+        btnGuardarNombre.ForeColor = Color.White
+        btnGuardarNombre.Location = New Point(219, 66)
+        btnGuardarNombre.Name = "btnGuardarNombre"
+        btnGuardarNombre.Size = New Size(52, 22)
+        btnGuardarNombre.TabIndex = 3
+        btnGuardarNombre.Text = "Guardar"
+        btnGuardarNombre.UseVisualStyleBackColor = False
+        ' 
+        ' btnEliminarCuenta
+        ' 
+        btnEliminarCuenta.BackColor = Color.FromArgb(CByte(220), CByte(53), CByte(69))
+        btnEliminarCuenta.FlatStyle = FlatStyle.Flat
+        btnEliminarCuenta.ForeColor = Color.White
+        btnEliminarCuenta.Location = New Point(26, 103)
+        btnEliminarCuenta.Name = "btnEliminarCuenta"
+        btnEliminarCuenta.Size = New Size(245, 28)
+        btnEliminarCuenta.TabIndex = 4
+        btnEliminarCuenta.Text = "Eliminar cuenta"
+        btnEliminarCuenta.UseVisualStyleBackColor = False
+        ' 
+        ' ConfiguracionForm
+        ' 
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(163), CByte(225), CByte(201))
+        ClientSize = New Size(298, 159)
+        Controls.Add(pnlPreview)
+        Controls.Add(cmbColores)
+        Controls.Add(txtNuevoNombre)
+        Controls.Add(btnGuardarNombre)
+        Controls.Add(btnEliminarCuenta)
+        FormBorderStyle = FormBorderStyle.FixedDialog
+        MaximizeBox = False
+        MinimizeBox = False
+        Name = "ConfiguracionForm"
+        StartPosition = FormStartPosition.CenterParent
+        Text = "Configuración de Color"
+        ResumeLayout(False)
+        PerformLayout()
 
-        Me.cmbColores.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cmbColores.FormattingEnabled = True
-        Me.cmbColores.Location = New System.Drawing.Point(30, 30)
-        Me.cmbColores.Name = "cmbColores"
-        Me.cmbColores.Size = New System.Drawing.Size(200, 24)
-        Me.cmbColores.TabIndex = 0
-        Me.cmbColores.BackColor = Color.FromArgb(209, 255, 221)
-        Me.cmbColores.ForeColor = Color.Black
-        Me.cmbColores.FlatStyle = FlatStyle.Flat
-
-        Me.pnlPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pnlPreview.Location = New System.Drawing.Point(250, 30)
-        Me.pnlPreview.Name = "pnlPreview"
-        Me.pnlPreview.Size = New System.Drawing.Size(60, 24)
-        Me.pnlPreview.TabIndex = 1
-        Me.pnlPreview.BackColor = Color.FromArgb(75, 190, 154)
-
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = Color.FromArgb(163, 225, 201)
-        Me.ClientSize = New System.Drawing.Size(340, 90)
-        Me.Controls.Add(Me.pnlPreview)
-        Me.Controls.Add(Me.cmbColores)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.MaximizeBox = False
-        Me.MinimizeBox = False
-        Me.Name = "ConfiguracionForm"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "Configuración de Color"
-        Me.ResumeLayout(False)
     End Sub
 End Class

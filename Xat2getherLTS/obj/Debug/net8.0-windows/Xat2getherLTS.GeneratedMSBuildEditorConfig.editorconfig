@@ -1,6 +1,6 @@
 is_global = true
 build_property.ApplicationManifest = app.manifest
-build_property.StartupObject = My.MyApplication
+build_property.StartupObject = Xat2getherLTS.Program
 build_property.ApplicationDefaultFont = 
 build_property.ApplicationHighDpiMode = 
 build_property.ApplicationUseCompatibleTextRendering = 

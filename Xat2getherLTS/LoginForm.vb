@@ -39,11 +39,8 @@ Public Class LoginForm
             Dim id As Integer = CInt(reader("id"))
             Dim nombre As String = reader("nombre").ToString()
             reader.Close()
-
-            GuardarSesionCifrada(id, nombre)
-            Dim ventanaChat As New MainChatForm(id, nombre)
-            Me.Close()
-            ventanaChat.Show()
+            Program.GuardarSesionCifrada(id, usuario, txtContrasena.Text.Trim())
+            Application.Restart()
 
         Else
             reader.Close()
@@ -69,69 +66,4 @@ Public Class LoginForm
             MessageBox.Show("Error al registrar: " & ex.Message)
         End Try
     End Sub
-
-    Private claveAES As Byte() = SHA256.Create().ComputeHash(Encoding.UTF8.GetBytes("clave-xat2gether"))
-
-    Public Sub GuardarSesionCifrada(id As Integer, nombre As String)
-        Dim datos = $"id={id};nombre={nombre}"
-        Dim cifrado = Convert.ToBase64String(EncriptarAES(datos))
-        File.WriteAllText(Path.Combine(Application.StartupPath, "account.txt"), cifrado)
-    End Sub
-
-    Public Function CargarSesionCifrada(ByRef id As Integer, ByRef nombre As String) As Boolean
-        Dim ruta = Path.Combine(Application.StartupPath, "account.txt")
-        If Not File.Exists(ruta) Then Return False
-
-        Try
-            Dim contenidoCifrado = File.ReadAllText(ruta)
-            Dim textoPlano = DesencriptarAES(Convert.FromBase64String(contenidoCifrado))
-            Dim partes = textoPlano.Split(";"c)
-
-            For Each parte In partes
-                If parte.StartsWith("id=") Then id = CInt(parte.Replace("id=", "").Trim())
-                If parte.StartsWith("nombre=") Then nombre = parte.Replace("nombre=", "").Trim()
-            Next
-
-            Return id > 0 AndAlso nombre <> ""
-        Catch
-            Return False
-        End Try
-    End Function
-
-    Public Sub BorrarSesion()
-        Dim ruta = Path.Combine(Application.StartupPath, "account.txt")
-        If File.Exists(ruta) Then File.Delete(ruta)
-    End Sub
-
-    Private Function EncriptarAES(texto As String) As Byte()
-        Using aes As Aes = Aes.Create()
-            aes.Key = claveAES
-            aes.GenerateIV()
-            Using ms As New MemoryStream()
-                ms.Write(aes.IV, 0, aes.IV.Length)
-                Using cs As New CryptoStream(ms, aes.CreateEncryptor(), CryptoStreamMode.Write)
-                    Dim bytes = Encoding.UTF8.GetBytes(texto)
-                    cs.Write(bytes, 0, bytes.Length)
-                    cs.FlushFinalBlock()
-                End Using
-                Return ms.ToArray()
-            End Using
-        End Using
-    End Function
-
-    Private Function DesencriptarAES(datos As Byte()) As String
-        Using aes As Aes = Aes.Create()
-            aes.Key = claveAES
-            Dim iv = datos.Take(16).ToArray()
-            Dim cifrado = datos.Skip(16).ToArray()
-            aes.IV = iv
-            Using ms As New MemoryStream(cifrado)
-                Using cs As New CryptoStream(ms, aes.CreateDecryptor(), CryptoStreamMode.Read)
-                    Using sr As New StreamReader(cs)
-                        Return sr.ReadToEnd()
-                    End Using
-                End Using
-            End Using
-        End Using
-    End Function
 End Class

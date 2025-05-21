@@ -31,6 +31,7 @@
       scroll-snap-type: y mandatory;
       overflow-y: scroll;
       height: 100%;
+	overflow: hidden;
     }
 
     section {

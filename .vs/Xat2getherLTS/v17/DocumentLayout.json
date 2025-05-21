@@ -3,28 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\nuevochatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\nuevochatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\nuevochatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\nuevochatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\mainchatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\mainchatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\mainchatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\mainchatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\mainchatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\mainchatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\loginform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\cryptoservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\cryptoservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\configuracionform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\configuracionform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\mainchatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\mainchatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\configuracionform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\configuracionform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\configuracionform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\configuracionform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\crearchat.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\crearchat.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\crearchat.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\crearchat.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\vertareasform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\vertareasform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\vertareasform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\vertareasform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\vertareasform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\vertareasform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\asignartareaform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\asignartareaform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\asignartareaform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\asignartareaform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\asignartareaform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\asignartareaform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\asignartareaform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\asignartareaform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\nuevochatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\nuevochatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\dardealtaform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\dardealtaform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\conexionbd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\conexionbd.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\dardealtaform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\dardealtaform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\nuevochatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\nuevochatform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\dardealtaform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\dardealtaform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\gestiongrupoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -33,22 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\gestiongrupoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\gestiongrupoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\fileservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\fileservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\cryptoservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\cryptoservice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\creargrupoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\creargrupoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|c:\\users\\pc\\documents\\github\\xat2gether\\xat2getherlts\\creargrupoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8810ACFB-4FEC-485F-AEAF-EFE4B7CC1E98}|Xat2getherLTS\\Xat2getherLTS.vbproj|solutionrelative:xat2getherlts\\creargrupoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,49 +118,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NuevoChatForm.vb",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\NuevoChatForm.vb",
-              "RelativeDocumentMoniker": "Xat2getherLTS\\NuevoChatForm.vb",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\NuevoChatForm.vb",
-              "RelativeToolTip": "Xat2getherLTS\\NuevoChatForm.vb",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwAsAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ConfiguracionForm.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ConfiguracionForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\ConfiguracionForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ConfiguracionForm.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Xat2getherLTS\\ConfiguracionForm.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T07:16:51.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NuevoChatForm.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\NuevoChatForm.vb",
-              "RelativeDocumentMoniker": "Xat2getherLTS\\NuevoChatForm.vb",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\NuevoChatForm.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Xat2getherLTS\\NuevoChatForm.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T07:16:49.751Z",
+              "WhenOpened": "2025-05-21T14:48:56.426Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainChatForm.vb",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\MainChatForm.vb",
-              "RelativeDocumentMoniker": "Xat2getherLTS\\MainChatForm.vb",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\MainChatForm.vb",
-              "RelativeToolTip": "Xat2getherLTS\\MainChatForm.vb",
-              "ViewState": "AgIAAE4BAAAAAAAAAAAcwIgAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ConfiguracionForm.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ConfiguracionForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\ConfiguracionForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ConfiguracionForm.vb",
+              "RelativeToolTip": "Xat2getherLTS\\ConfiguracionForm.vb",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T07:16:33.65Z",
+              "WhenOpened": "2025-05-21T14:49:00.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MainChatForm.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\MainChatForm.vb",
               "RelativeDocumentMoniker": "Xat2getherLTS\\MainChatForm.vb",
@@ -112,20 +159,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginForm.vb",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\LoginForm.vb",
-              "RelativeDocumentMoniker": "Xat2getherLTS\\LoginForm.vb",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\LoginForm.vb",
-              "RelativeToolTip": "Xat2getherLTS\\LoginForm.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainChatForm.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\MainChatForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\MainChatForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\MainChatForm.vb",
+              "RelativeToolTip": "Xat2getherLTS\\MainChatForm.vb",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwDwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T07:16:25.08Z",
+              "WhenOpened": "2025-05-21T07:16:33.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "CryptoService.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CryptoService.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\CryptoService.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CryptoService.vb",
+              "RelativeToolTip": "Xat2getherLTS\\CryptoService.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T07:15:59.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoginForm.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\LoginForm.vb",
               "RelativeDocumentMoniker": "Xat2getherLTS\\LoginForm.vb",
@@ -137,7 +197,248 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "LoginForm.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\LoginForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\LoginForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\LoginForm.vb",
+              "RelativeToolTip": "Xat2getherLTS\\LoginForm.vb",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T07:16:25.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\Program.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\Program.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\Program.vb",
+              "RelativeToolTip": "Xat2getherLTS\\Program.vb",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T10:21:09.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrearChat.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CrearChat.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\CrearChat.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CrearChat.vb",
+              "RelativeToolTip": "Xat2getherLTS\\CrearChat.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T07:15:55.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CrearChat.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CrearChat.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\CrearChat.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CrearChat.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Xat2getherLTS\\CrearChat.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T07:15:53.73Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfiguracionForm.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ConfiguracionForm.Designer.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\ConfiguracionForm.Designer.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ConfiguracionForm.Designer.vb",
+              "RelativeToolTip": "Xat2getherLTS\\ConfiguracionForm.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T14:57:31.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VerTareasForm.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\VerTareasForm.Designer.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\VerTareasForm.Designer.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\VerTareasForm.Designer.vb",
+              "RelativeToolTip": "Xat2getherLTS\\VerTareasForm.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T13:17:59.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AsignarTareaForm.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\AsignarTareaForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\AsignarTareaForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\AsignarTareaForm.vb",
+              "RelativeToolTip": "Xat2getherLTS\\AsignarTareaForm.vb",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwD0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T12:01:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AsignarTareaForm.resx",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\AsignarTareaForm.resx",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\AsignarTareaForm.resx",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\AsignarTareaForm.resx",
+              "RelativeToolTip": "Xat2getherLTS\\AsignarTareaForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-21T12:09:14.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AsignarTareaForm.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\AsignarTareaForm.Designer.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\AsignarTareaForm.Designer.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\AsignarTareaForm.Designer.vb",
+              "RelativeToolTip": "Xat2getherLTS\\AsignarTareaForm.Designer.vb",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T12:09:16.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VerTareasForm.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\VerTareasForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\VerTareasForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\VerTareasForm.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Xat2getherLTS\\VerTareasForm.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T13:17:29.558Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VerTareasForm.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\VerTareasForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\VerTareasForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\VerTareasForm.vb",
+              "RelativeToolTip": "Xat2getherLTS\\VerTareasForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T13:17:39.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AsignarTareaForm.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\AsignarTareaForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\AsignarTareaForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\AsignarTareaForm.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Xat2getherLTS\\AsignarTareaForm.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T12:01:25.275Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DarDeAltaForm.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\DarDeAltaForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\DarDeAltaForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\DarDeAltaForm.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Xat2getherLTS\\DarDeAltaForm.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T10:52:52.949Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConexionBD.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ConexionBD.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\ConexionBD.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ConexionBD.vb",
+              "RelativeToolTip": "Xat2getherLTS\\ConexionBD.vb",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T10:38:53.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NuevoChatForm.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\NuevoChatForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\NuevoChatForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\NuevoChatForm.vb",
+              "RelativeToolTip": "Xat2getherLTS\\NuevoChatForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T07:16:51.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NuevoChatForm.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\NuevoChatForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\NuevoChatForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\NuevoChatForm.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Xat2getherLTS\\NuevoChatForm.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T07:16:49.751Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DarDeAltaForm.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\DarDeAltaForm.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\DarDeAltaForm.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\DarDeAltaForm.vb",
+              "RelativeToolTip": "Xat2getherLTS\\DarDeAltaForm.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T10:52:55.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationEvents.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ApplicationEvents.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\ApplicationEvents.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\ApplicationEvents.vb",
+              "RelativeToolTip": "Xat2getherLTS\\ApplicationEvents.vb",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T10:15:58.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DarDeAltaForm.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\DarDeAltaForm.Designer.vb",
+              "RelativeDocumentMoniker": "Xat2getherLTS\\DarDeAltaForm.Designer.vb",
+              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\DarDeAltaForm.Designer.vb",
+              "RelativeToolTip": "Xat2getherLTS\\DarDeAltaForm.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-21T10:52:57.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "GEstionGrupoForm.vb",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\GEstionGrupoForm.vb",
               "RelativeDocumentMoniker": "Xat2getherLTS\\GEstionGrupoForm.vb",
@@ -145,12 +446,11 @@
               "RelativeToolTip": "Xat2getherLTS\\GEstionGrupoForm.vb",
               "ViewState": "AgIAAEkAAAAAAAAAAAAcwCcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T07:16:08.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T07:16:08.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 26,
               "Title": "GEstionGrupoForm.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\GEstionGrupoForm.vb",
               "RelativeDocumentMoniker": "Xat2getherLTS\\GEstionGrupoForm.vb",
@@ -158,57 +458,6 @@
               "RelativeToolTip": "Xat2getherLTS\\GEstionGrupoForm.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-21T07:16:05.897Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FileService.vb",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\FileService.vb",
-              "RelativeDocumentMoniker": "Xat2getherLTS\\FileService.vb",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\FileService.vb",
-              "RelativeToolTip": "Xat2getherLTS\\FileService.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T07:16:02.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CryptoService.vb",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CryptoService.vb",
-              "RelativeDocumentMoniker": "Xat2getherLTS\\CryptoService.vb",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CryptoService.vb",
-              "RelativeToolTip": "Xat2getherLTS\\CryptoService.vb",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T07:15:59.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CrearGrupoForm.vb",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CrearGrupoForm.vb",
-              "RelativeDocumentMoniker": "Xat2getherLTS\\CrearGrupoForm.vb",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CrearGrupoForm.vb",
-              "RelativeToolTip": "Xat2getherLTS\\CrearGrupoForm.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T07:15:55.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CrearGrupoForm.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CrearGrupoForm.vb",
-              "RelativeDocumentMoniker": "Xat2getherLTS\\CrearGrupoForm.vb",
-              "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Xat2Gether\\Xat2getherLTS\\CrearGrupoForm.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Xat2getherLTS\\CrearGrupoForm.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-21T07:15:53.73Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

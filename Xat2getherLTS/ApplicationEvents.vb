@@ -26,57 +26,7 @@ Namespace My
     ' End Sub
 
     Partial Friend Class MyApplication
-        Dim id As Integer
-        Dim nombre As String
-        Private Sub Main(sender As Object, e As ApplicationServices.StartupEventArgs) Handles Me.Startup
-            If Not Conectar() Then
-                MessageBox.Show("No se pudo conectar a la base de datos")
-            End If
-            If CargarSesionCifrada(id, nombre) Then
-                Dim ventanaChat As New MainChatForm(id, nombre)
-                ventanaChat.Show()
-                Exit Sub
-            Else
-                Dim ventanalogin As New LoginForm
-                ventanalogin.Show()
-            End If
-        End Sub
-        Public Function CargarSesionCifrada(ByRef id As Integer, ByRef nombre As String) As Boolean
-            Dim ruta = Path.Combine(System.Windows.Forms.Application.StartupPath, "account.txt")
-            If Not File.Exists(ruta) Then Return False
 
-            Try
-                Dim contenidoCifrado = File.ReadAllText(ruta)
-                Dim textoPlano = DesencriptarAES(Convert.FromBase64String(contenidoCifrado))
-                Dim partes = textoPlano.Split(";"c)
-
-                For Each parte In partes
-                    If parte.StartsWith("id=") Then id = CInt(parte.Replace("id=", "").Trim())
-                    If parte.StartsWith("nombre=") Then nombre = parte.Replace("nombre=", "").Trim()
-                Next
-
-                Return id > 0 AndAlso nombre <> ""
-            Catch
-                Return False
-            End Try
-        End Function
-        Private claveAES As Byte() = SHA256.Create().ComputeHash(Encoding.UTF8.GetBytes("clave-xat2gether"))
-
-        Private Function DesencriptarAES(datos As Byte()) As String
-            Using aes As Aes = Aes.Create()
-                aes.Key = claveAES
-                Dim iv = datos.Take(16).ToArray()
-                Dim cifrado = datos.Skip(16).ToArray()
-                aes.IV = iv
-                Using ms As New MemoryStream(cifrado)
-                    Using cs As New CryptoStream(ms, aes.CreateDecryptor(), CryptoStreamMode.Read)
-                        Using sr As New StreamReader(cs)
-                            Return sr.ReadToEnd()
-                        End Using
-                    End Using
-                End Using
-            End Using
-        End Function
     End Class
 
 

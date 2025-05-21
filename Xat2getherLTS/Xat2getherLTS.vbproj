@@ -8,7 +8,7 @@
     <ApplicationIcon>xat2gether.ico</ApplicationIcon>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <OutputType>WinExe</OutputType>
-    <StartupObject>My.MyApplication</StartupObject>
+    <StartupObject>Xat2getherLTS.Program</StartupObject>
     <MyType>WindowsForms</MyType>
 
   </PropertyGroup>
